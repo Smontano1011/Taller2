@@ -43,7 +43,7 @@ def plot_series(data, initial_date, proy):
             line=dict(color="#188463"),
         ),
         go.Scatter(
-            name='Proyección',
+            name='Proyección JaimeJosé',
             x=data_plot.index,
             y=data_plot['forecast'],
             mode='lines',
